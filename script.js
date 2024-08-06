@@ -10,11 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Não, infelizmente conheço pouco da sua história",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                afirmacao: "Se você acertou poucas,"
             },
             {
                 texto: "Claro, sou um sofredor",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                afirmacao: "Você é mesmo um torcedor,"
             }
         ]
     },
@@ -23,11 +23,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Infelizmente não sei qual foi o ano",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                afirmacao: " não tem problema."
             },
             {
                 texto: "Essa é fácil, ele surgiu em 1910",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                afirmacao: " acertou todas as perguntas."
             }
         ]
     },
@@ -36,11 +36,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Nunca procurei por isso, conheço somente os atuais jogadores",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                afirmacao: "Serve de aprendizado."
             },
             {
                 texto: "Eu sei essa, alguns são eles: Cássio, Sócrates e Rivelino",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                afirmacao: "O Corinthians é um grande clube."
             }
         ]
     },
@@ -49,11 +49,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Pensei que eles não haviam nenhuma",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                afirmacao: ""
             },
             {
                 texto: "Foi em 2012, com o gol marcado pelo Emerson Sheik",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                afirmacao: "Com milhoẽs de torcedores ao redor de todo o mundo."
             }
         ]
     },
@@ -62,11 +62,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "É o gavião, tenho certeza",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                afirmacao: ""
             },
             {
                 texto: "É o Mosqueteiro, isso é óbvio",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                afirmacao: "E se você ainda não torcer para nenhum outro clube, venha fazer parte do nosso bando de loucos."
             }
         ]
     },
@@ -105,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
